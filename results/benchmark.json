@@ -1,0 +1,92 @@
+{
+  "kind": "offline deterministic accounting, not a model evaluation",
+  "token_metric": "ceil(UTF8_bytes / 4)",
+  "seeds": 5,
+  "rates_per_million_usd": {
+    "parent_input_per_million": 3.0,
+    "parent_output_per_million": 15.0,
+    "worker_input_per_million": 0.3,
+    "worker_output_per_million": 1.2
+  },
+  "assumed_delagated_latency_seconds": 14.0,
+  "scenarios": {
+    "direct": {
+      "tasks": 45,
+      "delegations": 0,
+      "parent_tokens": 215695,
+      "worker_tokens": 0,
+      "all_provider_tokens": 215695,
+      "usd_assumption": 0.716205,
+      "micro_recall": 1.0,
+      "mean_latency_assumption_seconds": 2.0,
+      "parent_token_saving_pct": 0.0,
+      "all_provider_token_saving_pct": 0.0,
+      "cost_saving_pct_assumed": 0.0
+    },
+    "threshold-150": {
+      "tasks": 45,
+      "delegations": 20,
+      "parent_tokens": 125889,
+      "worker_tokens": 92351,
+      "all_provider_tokens": 218240,
+      "usd_assumption": 0.4748838,
+      "micro_recall": 0.947368,
+      "mean_latency_assumption_seconds": 7.333,
+      "parent_token_saving_pct": 41.64,
+      "all_provider_token_saving_pct": -1.18,
+      "cost_saving_pct_assumed": 33.69
+    },
+    "threshold-350": {
+      "tasks": 45,
+      "delegations": 20,
+      "parent_tokens": 125889,
+      "worker_tokens": 92351,
+      "all_provider_tokens": 218240,
+      "usd_assumption": 0.4748838,
+      "micro_recall": 0.947368,
+      "mean_latency_assumption_seconds": 7.333,
+      "parent_token_saving_pct": 41.64,
+      "all_provider_token_saving_pct": -1.18,
+      "cost_saving_pct_assumed": 33.69
+    },
+    "threshold-700": {
+      "tasks": 45,
+      "delegations": 0,
+      "parent_tokens": 215695,
+      "worker_tokens": 0,
+      "all_provider_tokens": 215695,
+      "usd_assumption": 0.716205,
+      "micro_recall": 1.0,
+      "mean_latency_assumption_seconds": 2.0,
+      "parent_token_saving_pct": 0.0,
+      "all_provider_token_saving_pct": 0.0,
+      "cost_saving_pct_assumed": 0.0
+    },
+    "no-risk-guard": {
+      "tasks": 45,
+      "delegations": 30,
+      "parent_tokens": 72143,
+      "worker_tokens": 147452,
+      "all_provider_tokens": 219595,
+      "usd_assumption": 0.3304056,
+      "micro_recall": 0.894737,
+      "mean_latency_assumption_seconds": 10.0,
+      "parent_token_saving_pct": 66.55,
+      "all_provider_token_saving_pct": -1.81,
+      "cost_saving_pct_assumed": 53.87
+    },
+    "shorter-worker-summary": {
+      "tasks": 45,
+      "delegations": 20,
+      "parent_tokens": 125599,
+      "worker_tokens": 92061,
+      "all_provider_tokens": 217660,
+      "usd_assumption": 0.4736658,
+      "micro_recall": 0.631579,
+      "mean_latency_assumption_seconds": 7.333,
+      "parent_token_saving_pct": 41.77,
+      "all_provider_token_saving_pct": -0.91,
+      "cost_saving_pct_assumed": 33.86
+    }
+  }
+}
